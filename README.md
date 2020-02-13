@@ -4,7 +4,9 @@ Projeto da semana omnistack 8.0, que foi criada com a ideia
 
 
 # Como iniciar
-**(Backend)** Basta colocar o comando: **yarn dev** na **raiz do projeto**.
+**(Backend)** Basta colocar o comando: **yarn start** na **raiz do projeto**.
+
+**(Fronted)** Basta colocar o comando depois de iniciar o backend: **yarn start** na pasta **\frontend**.
 
 
 ## Autor
