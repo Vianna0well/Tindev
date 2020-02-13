@@ -1,6 +1,6 @@
 
 # Tindev - Rede social
-Projeto da semana omnistack 8.0, que foi criada com a ideia
+Projeto da semana omnistack 8.0, que foi criada com a ideia de unir programadores em uma rede social
 
 
 # Como iniciar
