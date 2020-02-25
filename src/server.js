@@ -6,10 +6,15 @@ const routes = require("./routes/routes");
 
 const app = express();
 
-mongoose.connect('mongodb+srv://omnistack:omnistack@cluster0-qhn6b.mongodb.net/omnistack8?retryWrites=true&w=majority', { useNewUrlParser: true });
+mongoose.connect('mongodb+srv://tindev:tindev@tindev-qazuv.mongodb.net/semana08?retryWrites=true&w=majority', {
+     useNewUrlParser: true, useUnifiedTopology: true 
+});
 
 app.use(cors());
 app.use(express.json());
 app.use(routes);
 
-app.listen(3001);
+const port = 3001
+console.log(`Server is running on port: ${port}`)
+
+app.listen(port);

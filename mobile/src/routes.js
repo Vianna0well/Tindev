@@ -6,7 +6,7 @@ import Main from './pages/Main'
 const Routes = createAppContainer(
     createSwitchNavigator({
         Login,
-        Main
+        Main,
     })
 );
 

@@ -5,7 +5,7 @@ module.exports = {
     async index(req, resp) {
         const { user } = req.headers;
         
-        const loggedDev = await Dev.findById(user);
+        const loggedDev = Dev.findById(user);
 
         const users = await Dev.find({
             $and: [
